@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Example</title>
+  <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+  <form action="/submit" method="post">
+    <div class="form-g">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-g">
+        <label for="address">address:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+
+    </post></div>
+
+    <div class="form-g">
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-g">
+      <label for="mobile">Mobile Number:</label>
+      <input type="tel" id="mobile" name="mobile" >
+      <small>Enter a 10-digit mobile number</small>
+    </div>
+
+    <div class="form-g">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+
+</body>
+</html>

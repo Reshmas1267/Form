@@ -1,0 +1,45 @@
+body {
+    
+    background-color: #f4f4f4;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    
+
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    color: brown;
+  }
+  
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
